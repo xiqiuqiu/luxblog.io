@@ -1,36 +1,39 @@
 ---
 layout:     post
-title:      "Welcome to Lux Blog"
-subtitle:   " \"Hello World, Hello Blog\""
-date:       2018-11-08 15:00:00
-author:     "Lux"
-header-img: "img/post-bg-2015.jpg"
+title:      "博客第一章"
+subtitle:   "搭建Gitpage+jekull 博客系统始末"
+date:       2018-04-14
+author:     "lux"
+header-img: "img/post-bg-unix-linux.jpg"
 tags:
     - 生活
+    - 
+    - 
 ---
 
-> “Yeah It's on. ”
+> 这是一段测试文字。
+    
 
 
-# 搭建Gitpage+jekull 博客系统始末
-##起因
+## 搭建Gitpage+jekull 博客系统始末
+### 起因
 题主已完成了[codecademy] (https://www.codecademy.com) 上的基础html/css/js课程。
 但实话讲虽然课程刷了一遍，练习题也按照要求完成，真回头去想脑子里还是空无一物，问题的原因就是在于对于学到的知识没有经过梳理和加工，仅仅停留在知道的层面。
 而检验所学知识最好的办法就是就是 **边学边用**
 
 因此，我开始去规划自己的第一个前端项目，而“写一个自己的博客”对于此时来说就是很好的选择了。
 
-##经过
+### 经过
 既然选好了努力的方向，那就立刻行动起来；
 经过一番选择，最终确定了方案[Github-page] (https://pages.github.com)+jekyll；
 这里简单介绍一下：
-###Github
+#### Github
 * Github是基于git实现的代码托管和版本控制，同时也被誉为“全球最大的同性交友网站”![WX20181107-144624](media/15415556163235/WX20181107-144624.png)
 
-###Jekyll
+#### Jekyll
 * Jekyll虽然只能做静态页面，但是胜在上手简单，最重要的是可以将项目免费托管在Github上！![WX20181107-144449](media/15415556163235/WX20181107-144449.png)
 
-###Github page
+### Github page
 * 可以免费发布托管在GitHub上的静态网站，好用还免费的服务器，省下了做域名备案等一大堆事情![WX20181107-150142](media/15415556163235/WX20181107-150142.png)
 
 
