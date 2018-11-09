@@ -1,21 +1,21 @@
 # Site settings
 title: lux Blog
 SEOTitle: 卢旭的博客 | luxu Blog
-header-img: img/home-bg.png
+header-img: img/home-bg.jpg
 email: luxu3883606@gmail.com
-description: "感谢你的到来"
-keyword: ""
-url: "http://huangxuan.me"              # your host, for absolute URL
+description: "这里是lux卢旭的博客，感谢你的到来"
+keyword: "产品，设计，生活，技术，互联网"
+url: "https://xiqiuqiu.github.io/luxblog.io/"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 RSS: false
-weibo_username:     蛤蛋蛋
-zhihu_username:     xiqiuqiu
+weibo_username:     “#”
+zhihu_username:     "#"
 github_username:    xiqiuqiu
-twitter_username:  @xiqiuqiu
+twitter_username:   “#”
 facebook_username:  xiqiuqiu
 
 
