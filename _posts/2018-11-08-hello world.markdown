@@ -7,8 +7,8 @@ author:     "lux"
 header-img: "img/post-bg-unix-linux.jpg"
 tags:
     - 生活
-    - 
-    - 
+    - 博客
+    - 测试
 ---
 
 > 这是一段测试文字。
