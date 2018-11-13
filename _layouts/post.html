@@ -90,27 +90,25 @@ layout: default
 
 
                 {% if site.duoshuo_username %}
-                <!-- 多说评论框 start -->
+                <!-- gitment 评论框 start -->
                
-                <div class="comment">
-                    <div class="ds-thread"
-                        data-thread-key="{{page.id}}"
-                        data-title="{{page.title}}"
-                        data-url="{{site.url}}{{site.baseurl}}{{page.url}}" >
-                    </div>
-                </div>
-                -->
-                <!-- 多说评论框 end -->
-                {% endif %}
+                <div id="gitmentContainer"></div>
+                <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+                <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+                <script>
+                var gitment = new Gitment({
+                    owner: 'xiqiuqiu',
+                    repo: 'https://xiqiuqiu.github.io/',
+                    oauth: {
+                        client_id: '11a01100309dec4eb1b7',
+                        client_secret: 'e495ed8224e405985f4911810cddcabfff084dba',
+                    },
+                });
+                gitment.render('gitmentContainer');
+                </script>
 
-                {% if site.disqus_username %}
-                <!-- disqus 评论框 start -->
-               <!--
-                <div class="comment">
-                    <div id="disqus_thread" class="disqus-thread"></div>
-                </div>
                 
-                <!-- disqus 评论框 end -->
+                <!-- gitment 评论框 end -->
                 {% endif %}
 
             </div>

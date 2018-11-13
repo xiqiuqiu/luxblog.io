@@ -13,7 +13,7 @@ baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 # SNS settings
 RSS: false
 weibo_username:     蛤蛋蛋
-zhihu_username:     蛤蛋蛋      #输入你的社交媒体账户名
+zhihu_username:     luxuxu      #输入你的社交媒体账户名
 github_username:    xiqiuqiu
 twitter_username:   xiqiuqiu
 facebook_username:  xiqiuqiu
@@ -55,9 +55,13 @@ kramdown:
 #duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 #gitment
-comment_gitment_repo: https://xiqiuqiu.github.io/
-comment_gitment_clientId: 11a01100309dec4eb1b7
-comment_gitment_clientSecret: e495ed8224e405985f4911810cddcabfff084dba
+gitment:
+  enable: true
+  id: '' #页面 ID, 可选。默认为 location.href
+  owner: xiqiuqiu
+  repo: https://xiqiuqiu.github.io/ #存储评论的 repo
+  client_id: '11a01100309dec4eb1b7' #你的 Client ID
+  client_secret: 'e495ed8224e405985f4911810cddcabfff084dba' #你的 Client secret
 
 
 
