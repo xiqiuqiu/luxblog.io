@@ -21,7 +21,7 @@ tags:
 [语雀](https://www.yuque.com/)是阿里内部团队开发，也是阿里系知识管理和团队协作重要工具之一；今年4月份正式开放注册，目前里面有[阮一峰](https://www.yuque.com/ruanyf)，阿里[UED前端团队](https://www.yuque.com/es2049), [AntV](https://www.yuque.com/antv)等阿里系团队不定期的内容分享，感兴趣的朋友一定要关注一下。
 ![语雀.jpg-w440](https://i.loli.net/2018/11/14/5beb9a1adbfd2.jpg)
 
-### 新闻
+
 
 
 
@@ -105,4 +105,4 @@ tags:
 	>CNN发言人北京时间11月13日晚证实，该媒体已在华盛顿特区当地法院起诉美国总统特朗普及其幕僚，指控他们禁止CNN记者阿科斯塔出席白宫记者会的禁令违反美国宪法第一和第五修正案，并希望立即恢复记者阿科斯塔（Jim Acosta）的白宫通行证。
 	![大嘴川.png](https://i.loli.net/2018/11/14/5bebe2ee1198d.png)
 
-### 本周金句
+
