@@ -1,0 +1,129 @@
+---
+layout:     post
+title:      "每周分享第2期"
+subtitle:   "一些有的没的资源和工具"
+date:       2018-11-12
+author:     "lux"
+header-img: "img/post-bg-unix-linux.jpg"
+tags:
+    - 学习
+    -
+    -
+---
+
+## 每周分享第2期 （20181122）
+> 最近主要学习方向是前端开发，继续从标签到布局再到框架...暂时还没很多的JS，基本上是“静态页面”
+
+#### 一些话：
+越来越感觉学习这种东西是回报曲线长，且反人性///  如果仅凭开始那一点点**兴趣**其实很难坚持下去，正好最近看到的一篇[文章](https://mp.weixin.qq.com/s?__biz=MzI3OTk5NzI5NA==&mid=2247488450&idx=1&sn=51bea0881a41fd4c7d3ab90d907ee572&chksm=ebbe6dc3dcc9e4d5b4d629d034dc45990499059bf6be2c11afba6d6a118ee4052f4a1466b914&mpshare=1&scene=1&srcid=11220EN7KpLgTl5tLgvEUCFN#rd)，看完其实感受挺深的。
+
+一件事情从“感兴趣”到“能做好”真的是一条长且艰苦的路，我希望自己不要变成：对什么都感兴趣，但是却什么都不会做的人。共勉！
+
+
+
+
+
+
+
+### 新闻
+
+* [AR协作](https://spatial.is/)
+
+  美国公司Spatia推出的AR眼镜，带上之后可以和任何人远程协作///  '只不过这个投影怎么这么像香港老鬼片:dog
+  [![Ar投影.png](https://i.loli.net/2018/11/23/5bf7ab30e2d18.png)](https://i.loli.net/2018/11/23/5bf7ab30e2d18.png)
+ <br>
+ 
+* [三星可折叠手机](https://arstechnica.com/gadgets/2018/11/samsung-shows-off-foldable-phone-prototype-promises-launch-next-year/)
+    
+    可折叠研究了这么多年，终于出了个真机。
+  [![可折叠手机.jpg](https://i.loli.net/2018/11/23/5bf7ab317007c.jpg)](https://i.loli.net/2018/11/23/5bf7ab317007c.jpg)
+<br>
+* [人类能活多久](https://cn.nytimes.com/health/20181121/human-life-span/)
+
+    在过去几十年的动物研究中，科学家已经开始了解导致老年人身体退化的特定细胞和分子过程。感觉最近的研究结果跟之前听说的差好多嘛！
+<br>
+* [谷歌申请“VR鞋子”专利 让你站着感觉就像在行走](http://tech.qq.com/a/20181122/011175.htm) ：
+
+    据外媒报道，谷歌申请了一项新专利，该专利名称是“增强现实/虚拟现实鞋子”。穿上该鞋子并带上VR头盔后，即可体验在虚拟世界中行走的感觉。但在现实世界中，使用者基本会待在原地，并不会撞到墙或其他障碍物。谷歌今年5月向美国专利商标局申请了这项专利，上周该专利被公布。
+
+[![vr.jpg](https://i.loli.net/2018/11/23/5bf7ab25c7108.jpg)](https://i.loli.net/2018/11/23/5bf7ab25c7108.jpg)
+
+
+
+
+### 技术
+* [尤大神的新动态：Vue.js 3.0 新特性预览](https://www.css88.com/archives/10052?utm_source=bigezhang.com)
+  
+  前端发展快，真的不是说说。想想前两年还听过jquery，这几年都没动静了///
+  
+[![Evan You.jpg](https://i.loli.net/2018/11/23/5bf7b0656049b.jpg)](https://i.loli.net/2018/11/23/5bf7b0656049b.jpg)
+<br>
+
+* [谷歌发布新的 Node.js Web 渲染界面 Carlo](https://www.infoq.cn/article/9DjiY0VW8hJ9ArwGE_L7)
+<br>
+
+
+### 教程
+* [福利向-**如何高效自学英语**(https://github.com/byoungd/English-level-up-tips-for-Chinese)
+
+  偶然在V2EX发现的教程，是由吧友创立并完善，帮助自学英语的人快速建立学习计划，有效提升学习效率。
+  
+[![自学.png](https://i.loli.net/2018/11/23/5bf7ab25da57e.png)](https://i.loli.net/2018/11/23/5bf7ab25da57e.png)
+
+
+* [python for everybody](https://www.py4e.com/)
+
+  之前学习python爬虫的时候在油管看过的教程，老师Dr.Chuck是计算机邻域的老油条。课程讲的比较适合小白，像我这种外行也可以听得明白，还是很推荐的。
+<br>
+
+* [Grid garden](http://cssgridgarden.com/#zh-cn)
+
+  最近学习Css grid的布局时候，由于缺乏布局实践经验，导致总是搞不懂它的二维布局里行与列的分布情况，偶然发现这个网站通过游戏化的方式，帮助理解Grid的一系列操作，比较清晰明了。
+ 
+  [![grid.png](https://i.loli.net/2018/11/23/5bf7ab2dc7c81.png)](https://i.loli.net/2018/11/23/5bf7ab2dc7c81.png)
+
+
+* [Git常用命令清单](https://github.com/jaywcjlove/handbook/blob/master/other/Git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E6%B8%85%E5%8D%95.md)
+
+  在Github上发现的全栈大神，早点找到他的话能省下我好多找资料的功夫。他repo里很多有用的工具资源；
+  
+### 工具
+* [edex-ui](https://github.com/GitSquared/edex-ui)
+
+   eDEX-UI是一个类似于科幻电脑界面的全屏桌面应用程序， 它在真实终端中运行shell，并显示有关系统的实时信息。 可用于pc和mac亲测装B神器！
+
+* [convertio](https://convertio.co/zh/)
+
+  日常办公必备理论上可以转换任何文件，再遇到ppt转word的时候可以去试试。
+  
+  [![在线转化所有.png](https://i.loli.net/2018/11/23/5bf7ab25b5230.png)](https://i.loli.net/2018/11/23/5bf7ab25b5230.png)
+
+
+* [Yu Writer](https://ivarptr.github.io/yu-writer.site/)
+
+  我在win10上折腾过Atom+markdown，sublime+markdown 以及一些网页版的各种...最后，暂时使用这款编辑器，原因有几点：
+  * 1.功能全面，2.UI美观，3.支持历史纪录和回滚操作。
+ 
+  [![yu writer.png](https://i.loli.net/2018/11/23/5bf7b2e5dc8ae.png)](https://i.loli.net/2018/11/23/5bf7b2e5dc8ae.png)
+
+
+  日常使用是没有问题的，唯一一点就是免费版不能设置暗黑主题，不过不掏钱，还要啥自行车不是。
+
+* [F.lux](https://justgetflux.com/)
+
+  一款全平台通用的屏幕亮度调节软件，默认选项里有*vignette-插图模式*搭配*soft-white*整体效果就像这样：
+  
+  [![f.lux.jpg](https://i.loli.net/2018/11/23/5bf7af20bc06a.jpg)](https://i.loli.net/2018/11/23/5bf7af20bc06a.jpg)
+
+
+* [ QuickLook](https://pooi.moe/QuickLook/)
+
+  要是你用过MAC的话，那你一定用过空格速览的功能，今天这项功能在win10也能完美使用了，而且提供了多格式支持：
+ 
+  [![空格速览.png](https://i.loli.net/2018/11/23/5bf7ab31d94ae.png)](https://i.loli.net/2018/11/23/5bf7ab31d94ae.png)
+
+
+
+### 新奇
+*  [人工智能阅读人民日报](https://www.solidot.org/story?sid=58694)
+*  [天文学家发现了一颗太阳的兄弟](https://www.solidot.org/story?sid=58691)
