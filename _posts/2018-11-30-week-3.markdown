@@ -67,7 +67,7 @@ tags:
  
  	一个快速安全的文件分享网站，支持将文件生成链接分享；
     
-    [![bugo.png](https://i.loli.net/2018/11/30/5c010aee6be0f.png)](https://i.loli.net/2018/11/30/5c010aee6be0f.png)
+    ![bugo.png](https://i.loli.net/2018/11/30/5c010aee6be0f.png)
     
 
 * [Haroopad](http://pad.haroopress.com/user.html)
