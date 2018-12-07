@@ -1,0 +1,86 @@
+---
+layout:     post
+title:      "每周分享第3期"
+subtitle:   "一些有的没的资源和工具"
+date:       2018-11-30
+author:     "lux"
+header-img: "img/post-bg-unix-linux.jpg"
+tags:
+    - 学习
+    -
+    -
+---
+
+## 每周分享第3期 （20181130）
+> 今天是11月的最后一天，2018年转眼又进入了倒数。回想这一年自己收获了什么？有没有像自己以为的那样把精力用到最有价值的事情上？年初说好的计划执行了多少？( ╯□╰ ) （：人生如戏，不行放弃：）
+
+
+
+
+
+
+
+### 资源
+* [Sideidea](http://sideidea.com/)
+	
+    分享独立开发者的盈利故事
+    
+    [![cash.png](https://i.loli.net/2018/11/30/5c010af375860.png)](https://i.loli.net/2018/11/30/5c010af375860.png)
+
+* [计算机基础知识](https://www.enginego.org/)
+
+	没有计算机基础知识，再眼花缭乱开发技术也只是水上浮萍吧。
+    
+    [![computer.png](https://i.loli.net/2018/11/30/5c010af3a3419.png)](https://i.loli.net/2018/11/30/5c010af3a3419.png)
+
+* [登陆页下载](https://cruip.com/)
+
+	各种登陆页面免费下载。
+    
+* [DevTube](https://dev.tube/)
+
+	youtube上的开发相关教程资源
+
+* [中国独立开发者项目列表](https://github.com/wizardforcel/chinese-independent-developer)
+
+	聚合所有中国独立开发者的项目（收录中）
+
+
+### 教程
+* [一个程序员的成长之路](https://gitissue.com/issues/5b047766135aa76b2fd99b0c)
+
+	今天这篇分享不单单是对程序员，更为每个人职业规划提出了一个切实可行的路径。
+    
+    [![fdcon2018.001.jpeg](https://i.loli.net/2018/11/30/5c010afa27bb4.jpeg)](https://i.loli.net/2018/11/30/5c010afa27bb4.jpeg)
+* [Chrome 开发者工具](https://developers.google.com/web/tools/chrome-devtools/)
+
+	官方出品，从头学习开发者工具。
+
+* [浏览器的工作原理](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/)
+
+	虽然文章年代久远（2011年），但胜在系统化。从浏览器介绍 - 解析和DOM树的知识 - 布局和渲染的全盘讲解。
+
+
+
+### 工具
+* [bugo.link](https://bugu.link)
+ 
+ 	一个快速安全的文件分享网站，支持将文件生成链接分享；
+    
+    ![bugo.png](https://i.loli.net/2018/11/30/5c010aee6be0f.png)
+    
+
+* [Haroopad](http://pad.haroopress.com/user.html)
+
+	一个全平台通用的Markdown编辑器;
+
+### 其他
+* [苹果论坛](https://www.powerapple.com/bbs/forums/2134)
+
+	之前偶然发现的一个专注于大英帝国出境和移民相关事务的论坛，还挺活跃。
+    
+* [书格](https://shuge.org/)
+
+	书格（Shuge.org）是一个自由开放的在线古籍图书馆。致力于开放式分享、介绍、推荐有价值的古籍善本，并鼓励将文化艺术作品数字化归档。
+    [![shugeorgwall1.jpg](https://i.loli.net/2018/11/30/5c010aed59691.jpg)](https://i.loli.net/2018/11/30/5c010aed59691.jpg)
+ 
