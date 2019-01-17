@@ -1,6 +1,6 @@
 # Site settings
 title: lux Blog
-SEOTitle: 卢旭的博客 | luxu Blog
+SEOTiddtle: 卢旭的博客 | luxu Blog
 header-img: img/home-bg.jpg
 email: luxu3883606@gmail.com
 description: "这里是lux卢旭的博客，感谢你的到来"
@@ -44,6 +44,7 @@ markdown: kramdown
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
 
+excerpt_separator:  '<!-- more -->'
 
 
 # Disqus settings
