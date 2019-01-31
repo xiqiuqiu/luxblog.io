@@ -44,25 +44,25 @@ markdown: kramdown
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
 
-excerpt_separator:  '<!-- more -->'
+
 
 
 # Disqus settings
-#disqus_username: lux
+disqus_username: https-xiqiuqiu-github-io
 
 # Duoshuo settings
-#duoshuo_username: huxblog
+# duoshuo_username: huxblog
 # Share component is depend on Comment so we can NOT use share only.
-#duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+# duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
-#gitment
-gitment:
-  enable: true
-  id: '' #页面 ID, 可选。默认为 location.href
-  owner: xiqiuqiu
-  repo: https://xiqiuqiu.github.io/ #存储评论的 repo
-  client_id: '11a01100309dec4eb1b7' #你的 Client ID
-  client_secret: 'e495ed8224e405985f4911810cddcabfff084dba' #你的 Client secret
+# #gitment
+# gitment:
+#   enable: true
+#   id: '' #页面 ID, 可选。默认为 location.href
+#   owner: xiqiuqiu
+#   repo: https://xiqiuqiu.github.io/ #存储评论的 repo
+#   client_id: '11a01100309dec4eb1b7' #你的 Client ID
+#   client_secret: 'e495ed8224e405985f4911810cddcabfff084dba' #你的 Client secret
 
 
 
@@ -86,7 +86,12 @@ sidebar-avatar: /img/avatar-lu.jpg      # use absolute URL, seeing it's used in 
 featured-tags: true                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
+# PROGRESSIVE web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
 
+# MathJax rendering for layout:page
+page-mathjax: false
 
 # Friends
 friends: [
