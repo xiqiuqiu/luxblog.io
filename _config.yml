@@ -48,22 +48,21 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: https-xiqiuqiu-github-io
+# disqus_username: https-xiqiuqiu-github-io
 
 # Duoshuo settings
 # duoshuo_username: huxblog
 # Share component is depend on Comment so we can NOT use share only.
 # duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
-# #gitment
-# gitment:
-#   enable: true
-#   id: '' #页面 ID, 可选。默认为 location.href
-#   owner: xiqiuqiu
-#   repo: https://xiqiuqiu.github.io/ #存储评论的 repo
-#   client_id: '11a01100309dec4eb1b7' #你的 Client ID
-#   client_secret: 'e495ed8224e405985f4911810cddcabfff084dba' #你的 Client secret
-
+# Gitalk settings
+comment_gitalk_clientId: 5e7d8af3e42a3ea01d48
+comment_gitalk_clientSecret: 8fdbfa53c6f4733298d043b42bc502a09e9fca62
+comment_gitalk_repo: xiqiuqiu.github.io
+owner: gittalk
+# createIssueManually: true
+# # github_username: 
+admin: gittalk
 
 
 # Analytics settings

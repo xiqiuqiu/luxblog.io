@@ -50,67 +50,39 @@ layout: default
 				{{ content }}
 
                 <hr>
-
-            
-                {% if site.duoshuo_share && site.duoshuo_username %}
-                <!-- GITTALK start -->
-                <!-- <div id="container"></div>
-                <link rel="stylesheet" href="https://billts.site/extra_css/gitment.css">
-                <script src="https://billts.site/js/gitment.js"></script>
+                
+                <!-- Gitalk start -->
+                <div id="gitalk-container"></div> 
+                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+                <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script></script> 
                 <script>
-                var gitment = new Gitment({
-                    id: '', // 可选。默认为 location.href
-                  owner: 'xiqiuqiu',
-                  repo: 'https://xiqiuqiu.github.io/',
-                  oauth: {
-                    client_id: '11a01100309dec4eb1b7',
-                    client_secret: 'e495ed8224e405985f4911810cddcabfff084dba',
-                  },
+                   var gitalk = new Gitalk({
+                  clientID: 'GitHub Application Client ID',
+                  clientSecret: 'GitHub Application Client Secret',
+                  repo: 'GitHub repo',
+                  owner: 'GitHub repo owner',
+                  admin: ['GitHub repo owner and collaborators, only these guys can initialize github issues'],
+                  id: location.pathname,      // Ensure uniqueness and length less than 50
+                  distractionFreeMode: false  // Facebook-like distraction free mode
                 })
-                gitment.render('container')
-                </script> -->
-                <!-- GIT TALK  end-->
-            
-                {% endif %}
 
+                gitalk.render('gitalk-container')
+                </script> 
+                
 
-
-                <ul class="pager">
+                    <ul class="pager">
                     {% if page.previous.url %}
                     <li class="previous">
                         <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
                     </li>
                     {% endif %}
+
                     {% if page.next.url %}
                     <li class="next">
                         <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
                     </li>
                     {% endif %}
                 </ul>
-
-
-                {% if site.duoshuo_username %}
-                <!-- gitment 评论框 start -->
-               
-                <!-- <div id="gitmentContainer"></div>
-                <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-                <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-                <script>
-                var gitment = new Gitment({
-                    owner: 'xiqiuqiu',
-                    repo: 'https://xiqiuqiu.github.io/',
-                    oauth: {
-                        client_id: '11a01100309dec4eb1b7',
-                        client_secret: 'e495ed8224e405985f4911810cddcabfff084dba',
-                    },
-                });
-                gitment.render('gitmentContainer');
-                </script> -->
-
-                
-                <!-- gitment 评论框 end -->
-                {% endif %}
-
             </div>
 
     <!-- Sidebar Container -->
@@ -150,45 +122,7 @@ layout: default
         </div>
     </div>
 </article>
-
-{% if site.duoshuo_username %}
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-    // dynamic User by Hux
-    var _user = '{{site.duoshuo_username}}';
-
-    // duoshuo comment query.
-    var duoshuoQuery = {short_name: _user };
-    (function() {
-        var ds = document.createElement('script');
-        ds.type = 'text/javascript';ds.async = true;
-        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-        ds.charset = 'UTF-8';
-        (document.getElementsByTagName('head')[0]
-         || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-</script>
-<!-- 多说公共JS代码 end -->
-{% endif %}
-
-
-{% if site.disqus_username %}
-<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = "{{site.disqus_username}}";
-    var disqus_identifier = "{{page.id}}";
-    var disqus_url = "{{site.url}}{{page.url}}";
-
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<!-- disqus 公共JS代码 end -->
-{% endif %}
-
+≈
 
 {% if site.anchorjs %}
 <!-- async load function -->
