@@ -56,13 +56,12 @@ kramdown:
 # duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 # Gitalk settings
-comment_gitalk_clientId: 5e7d8af3e42a3ea01d48
-comment_gitalk_clientSecret: 8fdbfa53c6f4733298d043b42bc502a09e9fca62
-comment_gitalk_repo: xiqiuqiu.github.io
-owner: gittalk
-# createIssueManually: true
-# # github_username: 
-admin: gittalk
+comment_gitalk_clientId: "5e7d8af3e42a3ea01d48"
+comment_gitalk_clientSecret: "8fdbfa53c6f4733298d043b42bc502a09e9fca62"
+comment_gitalk_repo: "xiqiuqiu.github.io"
+owner: "xiqiuqiu"
+createIssueManually: true
+admin: ["gittalk"]
 
 
 # Analytics settings
