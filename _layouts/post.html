@@ -58,13 +58,13 @@ layout: default
                 <script src="https://billts.site/js/gitment.js"></script>
                 <script>
                 var gitment = new Gitment({
-                  id: '<%= page.date %>', // 可选。默认为 location.href
-                  owner: 'xiqiuqiu',//你的 GitHub ID
-                  repo: 'xiqiuqiu.github.io',//存储评论的 repo
+                  id: '{{ page.url }}',
+                  owner: '{{ site.data.github.userName }}',
+                  repo: '{{ site.data.github.repo }}',
                   oauth: {
-                    client_id: 'a6aaa2c58e1f5d27a477',
-                    client_secret: 'c33387c2316ff62f859a691d1db2441603d7414d',
-                  },
+                        client_id: '{{ site.data.github.clientId }}',
+                        client_secret: '{{ site.data.github.clientSecret }}',
+                    },
                 })
                 gitment.render('container')
                 </script>
