@@ -51,23 +51,24 @@ layout: default
 
                 <hr>
                 
-                <!-- Gitalk start -->
-                <div id="gitalk-container"></div> 
-                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-                <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
-                <script>
-                   var gitalk = new Gitalk({
-                  clientID: 'GitHub Application Client ID',
-                  clientSecret: 'GitHub Application Client Secret',
-                  repo: 'GitHub repo',
-                  owner: 'GitHub repo owner',
-                  admin: ['GitHub repo owner and collaborators, only these guys can initialize github issues'],
-                  id: location.pathname,      // Ensure uniqueness and length less than 50
-                  distractionFreeMode: false  // Facebook-like distraction free mode
-                })
 
-                gitalk.render('gitalk-container')
-                </script> 
+                <!-- Gitment -->
+                <div id="container"></div>
+                <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+                <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+                <script>
+                var gitment = new Gitment({
+                  id: '页面 ID', // 可选。默认为 location.href
+                  owner: 'xiqiuqiu',//你的 GitHub ID
+                  repo: 'xiqiuqiu.github.io',//存储评论的 repo
+                  oauth: {
+                    client_id: 'a6aaa2c58e1f5d27a477',
+                    client_secret: 'c33387c2316ff62f859a691d1db2441603d7414d',
+                  },
+                })
+                gitment.render('container')
+                </script>
+                <!-- gitment-end -->
                 
 
                     <ul class="pager">
@@ -122,7 +123,7 @@ layout: default
         </div>
     </div>
 </article>
-≈
+
 
 {% if site.anchorjs %}
 <!-- async load function -->
