@@ -2,7 +2,7 @@
 layout:     post
 title:      "【设计】设计系统梳理--颜色篇"
 subtitle:   "该写写老本行了"
-date:       2019-03-015
+date:       2019-03-15
 author:     "lux"
 header-img: "img/post-bg-color.png"
 tags:
@@ -16,8 +16,9 @@ tags:
 
 ## 颜色篇
 
-颜色应用于元素，文本，按钮和边框的背景。
+颜色通常应用于元素，文本，按钮和边框的背景。
 * 背景颜色
+* 主题/辅助色
 * 文字颜色
 * 功能色
 * 边框颜色
@@ -25,6 +26,10 @@ tags:
 ### 背景颜色
 ---
 背景颜色最常用用于大块内容或颜色的区域。选择背景颜色时，请确保前景色对比度[达到AA级](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html)的最低WCAG可访问性等级。满足这些标准可确保包括视障群体在内的任何人及不同种类的设备都可访问内容。
+
+由于背景颜色使用面积比较大，常见的为明度稍高的灰色，白色，这类颜色往往有很好的可用性和延展性，是产品设计中的首选。纯色因为亮度太高，在一些特定场景下，如：手机端长时间观看或夜间使用都会带来不好的体验，所以建议加入适当灰色中和。
+
+以下是我经常用做背景色的一些颜色及效果：
 
 #### 灰色
 中度灰 ```#f6f8fa```
@@ -73,6 +78,25 @@ tags:
 
 亮紫 ```#f5f0ff```
 ![](https://ws1.sinaimg.cn/large/e66b0ffcly1g13a732u86j208w03w3y9.jpg)
+
+
+### 主题色
+---
+主题色通常会选择两到三种，即1种主题色和2-3种辅助色即可。切记颜色使用不宜过多。
+
+一般情况下，使用主题色和辅助色的同类色有助于创建和谐的色彩主题，能够在确保文本可访问的情况，将不同层级的UI元素、信息彼此区分。
+
+要测试自己选择的颜色能否有比较好适配效果，这里可以使用google家的[color Tool](https://material.io/tools/color/#!/?view.left=0&view.right=0&primary.color=C62828)工具来实时的将颜色渲染在样机上，方便的查看颜色的适应性
+
+![](https://ws1.sinaimg.cn/large/e66b0ffcly1g1871ip67wj20zr0l7kbe.jpg)
+
+在无障碍选项中，可以会根据你选择的颜色生成文内容文本的可访问性情况，并给出问题提示。
+
+![](https://ws1.sinaimg.cn/large/e66b0ffcly1g1873bwve0j20zr0l7wyq.jpg)
+
+如果你的产品打算跟进使用```Material Design```作为设计语言，你还可以使用google家出的sketch插件[Material Theme Editor ](https://material.io/tools/theme-editor/)里面包含了设计需要的色板，Icon，控件，组件等可以非常方便的设计出符合规范的产品UI。
+
+![](https://ws1.sinaimg.cn/large/e66b0ffcly1g187g4argtg211j0ganpf.gif)
 
 
 ### 文字颜色
