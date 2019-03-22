@@ -6,7 +6,7 @@ date:       2018-11-12
 author:     "lux"
 header-img: "img/post-bg-thinking.png"
 tags:
-    - 思维
+    - 思考
     - 
     - 
 ---

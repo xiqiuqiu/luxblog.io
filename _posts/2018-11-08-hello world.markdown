@@ -6,9 +6,9 @@ date:       2018-04-14
 author:     "lux"
 header-img: "img/post-bg-unix-linux.jpg"
 tags:
-    -
-    - 
-    - 测试
+    - 博客
+
+    
 ---
 
 > 搭建Gitpage+jekull 博客系统始末
